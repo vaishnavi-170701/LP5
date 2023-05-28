@@ -1,0 +1,8 @@
+module CalculatorApp{
+    interface Calculator{
+        double getSum(in double a, in double b);
+        double getDiff(in double a, in double b);
+        double getMul(in double a, in double b);
+        double getDiv(in double a, in double b);
+    };
+};
